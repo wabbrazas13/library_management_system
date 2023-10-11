@@ -2,7 +2,7 @@
 Research Project
 
 Library Management System
-- a system develop by me alone for the project purposes
+- a system develop by me for project purposes in my third year college
 - it is all about book records
 
 Description
