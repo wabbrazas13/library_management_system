@@ -1,0 +1,352 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*-----------------------------------------------------------ADMIN DASHBOARD----------------------------------------------------------*/
+
+section {
+    padding-top: 60px;
+    width: 1365px;
+    background-color: #f1f2f6;
+}
+.admin-dashboard-wrapper {
+    height: 500px;
+    width: 1000px;
+    padding: 3%;
+    width: 80%;
+    margin: 10px auto 0px;
+}
+.box {
+    width: 26%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    text-align: center;
+}
+.text-count {
+    font-size: 40px;
+    font-weight: bold;
+}
+.text-admin-dashboard {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.container {
+    padding-left: 80px;
+}
+
+/*---------------------------------------------MANAGE BOOKS-------------------------------------------------------------------------*/
+
+.manage-books-wrapper {
+    height: fit-content;
+    width: 1000px;
+    padding: 1%;
+    width: 94%;
+    margin: 10px 0px 0px 30px;
+}
+.text-manage-books{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.add-book-record-btn{
+    background-color: #054605;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.add-book-record-btn:hover {
+    background-color: grey;
+}
+.manage-book-record-table{
+    width: 100%;
+    margin-top: 30px;
+}
+.manage-book-record-table th, .manage-book-record-table td {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.manage-book-record-table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+.manage-book-record-table tr td {
+    padding: 1%;
+}
+.searchbook{
+    float: right;
+    padding-bottom: 20px;
+}
+.searchbook .fa{
+    font-size: 30px;
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-search{
+    color: white;
+}
+.btn-upd-bk {
+    background-color: #1f6d01;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-upd-bk:hover {
+    background-color: #2ed573;
+}
+.btn-del-bk {
+    background-color: #af041e;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-del-bk:hover {
+    background-color: #5d9e5f;
+}
+
+/*---------------------------------------------ADD/UPDATE BOOK RECORDS-------------------------------------------------------------------------*/
+
+.add-book-wrapper {
+    height: 470px;
+    padding: 2%;
+    width: 60%;
+    margin: 10px 0px 0px 120px;
+}
+.text-add-book{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.add-book-table1 {
+    border-collapse: collapse;
+    width: 350px;
+    float: left;
+}
+.add-book-table2 {
+    border-collapse: collapse;
+    width: fit-content;
+    float: left; 
+}
+.add-book-table1 th, .add-book-table1 td, .add-book-table2 th, .add-book-table2 td {
+    padding: 3px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.btn-add-book-record{
+    margin-top: 20px;
+    background-color: #1f6d01;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    height: 40px;
+}
+.btn-add-book-record:hover {
+    background-color: #2ed573;
+}
+
+/*-----------------------------------------BOOK RESERVATION------------------------------------------------------------*/
+
+.bkres-wrapper {
+    height: fit-content;
+    width: 1000px;
+    padding: 1%;
+    width: 94%;
+    margin: 10px 0px 0px 30px;
+}
+.text-bkres{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.bkres-table{
+    border-bottom: 1px solid #ddd;
+    border-collapse: collapse;
+    position: sticky;
+    top: 0px;
+}
+.bkres-table th{
+    position: sticky;
+    top: 0px;
+    border-bottom: 1px solid #ddd;
+    padding: 1%;
+    text-align: left;
+    background-color: rgb(107, 76, 76);
+    color: skyblue;
+}
+.bkres-table tr td {
+    padding: 1%;
+    border: 1px solid grey;
+    vertical-align: middle;
+}
+.bkres-table tr:nth-child(even){
+    background-color: #ddd;
+}
+.bkres-table th, .bkres-table tr{
+    text-align: left;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+}
+.bkres-tbl-wrapper{
+    max-height: 400px;
+    max-width: 1280px;
+    border: 1px solid grey;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    overflow: auto;
+}
+
+/*----------------------------------------BORROW BOOK-----------------------------------------------------------*/
+
+.bk-trans-wrapper {
+    height: fit-content;
+    width: 1000px;
+    padding: 1%;
+    width: 94%;
+    margin: 10px 0px 0px 30px;
+}
+.text-bk-trans{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.bk-trans-tbl {
+    border-collapse: collapse;
+    width: 450px;
+    float: left;
+}
+.bk-trans-tbl td{
+    padding: 3px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.bk-trans-btn{
+    margin-top: 10px;
+    background-color: #1f6d01;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    width: 106px;
+    height: 40px;
+}
+.bk-trans-btn:hover {
+    background-color: #2ed573;
+}
+.view-transaction-btn{
+    background-color: #054605;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.view-transaction-btn:hover {
+    background-color: grey;
+}

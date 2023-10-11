@@ -1,0 +1,368 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*------------------------------------------------------USER BOOKS COLLECTION--------------------------------------------------*/
+
+section {
+    padding-top: 60px;
+    width: 1365px;
+    background-color: #f1f2f6;
+}
+
+.books-collection-wrapper {
+    height: fit-content;
+    width: 1000px;
+    padding: 1%;
+    width: 94%;
+    margin: 10px 0px 0px 30px;
+}
+.text-books-collection{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.view-reservations-btn{
+    background-color: #054605;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.view-reservations-btn:hover {
+    background-color: grey;
+}
+.books-collection-table{
+    width: 100%;
+    margin-top: 30px;
+}
+.books-collection-table th, .books-collection-table td {
+    text-align: left;
+    vertical-align: middle;
+    border-bottom: 1px solid #ddd;
+}
+.books-collection-table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+.books-collection-table tr td {
+    padding: 1%;
+}
+.searchbook{
+    float: right;
+    padding-bottom: 20px;
+}
+.searchbook .fa{
+    font-size: 30px;
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-search{
+    color: white;
+}
+.btn-res1-bk {
+    background-color: #1f6d01;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-res1-bk:hover {
+    background-color: #2ed573;
+}
+.btn-res2-bk {
+    background-color: red;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-res2-bk:hover {
+    background-color: orangered;
+}
+
+/*-----------------------------------------------------------USER BOOK RESERVATION----------------------------------------------------------*/
+
+.book-reservation-wrapper {
+    height: fit-content;
+    width: 1000px;
+    padding: 1%;
+    width: 94%;
+    margin: 10px 0px 0px 30px;
+}
+.text-book-reservation{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.res-info {
+    line-height: 30px;
+}
+.btn-res-confirm {
+    margin-top: 30px;
+    background-color: #1f6d01;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    width: 120px;
+}
+.btn-res-confirm:hover {
+    background-color: #2ed573;
+}
+.btn-res-cancel {
+    background-color: #af041e;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    width: 120px;
+}
+.btn-res-cancel:hover {
+    background-color: orangered;
+}
+
+/*------------------------------------------------------VIEW RESERVATION--------------------------------------------------*/
+
+.my-res-wrapper {
+    height: fit-content;
+    width: 1000px;
+    padding: 1%;
+    width: 94%;
+    margin: 10px 0px 0px 30px;
+}
+.text-my-res{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.res-bknow-btn{
+    background-color: #054605;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.res-bknow-btn:hover {
+    background-color: grey;
+}
+.my-res-table{
+    width: 100%;
+    margin-top: 30px;
+}
+.my-res-table th, .my-res-table td {
+    text-align: left;
+    vertical-align: middle;
+    border-bottom: 1px solid #ddd;
+}
+.my-res-table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+.my-res-table tr td {
+    padding: 1%;
+}
+
+/*-----------------------------------------------------BOOK REQUEST--------------------------------------------------*/
+
+.book-req-wrapper {
+    height: fit-content;
+    width: 1000px;
+    padding: 1%;
+    width: 94%;
+    margin: 10px 0px 0px 30px;
+}
+.text-book-req{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.book-req-tbl {
+    border-collapse: collapse;
+    width: 400px;
+    float: left;
+}
+.book-req-tbl th, .book-req-tbl td{
+    padding: 3px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.req-btn{
+    margin-top: 30px;
+    background-color: #1f6d01;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    width: 240px;
+    height: 40px;
+}
+.req-btn:hover {
+    background-color: #2ed573;
+}
+.view-req-btn{
+    background-color: #054605;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.view-req-btn:hover {
+    background-color: grey;
+}
+
+/*-----------------------------------------------------VIEW REQUEST--------------------------------------------------*/
+
+.my-req-wrapper {
+    height: fit-content;
+    width: 1000px;
+    padding: 1%;
+    width: 94%;
+    margin: 10px 0px 0px 30px;
+}
+.text-my-req{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.req-bknow-btn{
+    background-color: #054605;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.req-bknow-btn:hover {
+    background-color: grey;
+}
+.my-req-table{
+    width: 100%;
+    margin-top: 30px;
+}
+.my-req-table th, .my-req-table td {
+    text-align: left;
+    vertical-align: middle;
+    border-bottom: 1px solid #ddd;
+}
+.my-req-table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+.my-req-table tr td {
+    padding: 1%;
+}
+.btn-req-del {
+    background-color: #af041e;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    width: 120px;
+}
+.btn-req-del:hover {
+    background-color: orangered;
+}
